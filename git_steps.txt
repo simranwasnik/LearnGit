@@ -1,0 +1,19 @@
+Git Steps
+
+git clone https://github.gsissc.myatos.net/IN-PUN-KLM/KLM-WBA.git
+
+git checkout -b [mylocal_branch] master
+
+check branch
+
+Make Changes in file
+
+git diff/status - to see the changes
+
+git add grails-app/controllers/com/klm/wba/AircraftTypeController.groovy - to add the file 
+
+git commit -m "enter comment"
+
+git push --set-upstream https://github.gsissc.myatos.net/IN-PUN-KLM/KLM-WBA.git [mylocal_branch] e.g.: wba_simran & check
+
+Check changes on browser in which branch changes are made.
